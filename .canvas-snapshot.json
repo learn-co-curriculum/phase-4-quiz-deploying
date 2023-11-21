@@ -85,61 +85,66 @@
       "id": 366124,
       "quiz_id": 53512,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 1,
+      "assessment_question_id": 632215,
+      "position": null,
       "question_name": "Environments",
       "question_type": "multiple_answers_question",
-      "question_text": "Which of the following are examples of common application environments? Select\nall that apply.",
+      "question_text": "<p>Which of the following are examples of common application environments? Select\nall that apply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Intro to Deployment",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7560/pages/intro-to-deployment\">Intro to Deployment</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_5679",
-          "id": 5679,
-          "text": "Production",
-          "comments": "Bingo! When your application is deployed to a server, it will be running in a production environment. Some features you have available in the development environment, like debugging tools and hot-reloading when the code is changed, aren't available in this environment. Instead, the focuses of a production environment are to run your application quickly; be resilient to errors (and to keep a log of what goes wrong); to handle lots of traffic; and generally to make your application as great as it can be for your users.",
-          "comments_html": "Bingo! When your application is deployed to a server, it will be running in a\n<strong>production</strong> environment. Some features you have available in the\ndevelopment environment, like debugging tools and hot-reloading when the code\nis changed, aren't available in this environment. Instead, the focuses of a\nproduction environment are to run your application quickly; be resilient to\nerrors (and to keep a log of what goes wrong); to handle lots of traffic; and\ngenerally to make your application as great as it can be for your users."
+          "id": 579,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Bingo! When your application is deployed to a server, it will be running in\na <strong>production</strong> environment. Some features you have available in the development\nenvironment, like debugging tools and hot-reloading when the code is changed,\naren't available in this environment. Instead, the focuses of a production\nenvironment are to run your application quickly; be resilient to errors (and to\nkeep a log of what goes wrong); to handle lots of traffic; and generally to make\nyour application as great as it can be for your users.</p>",
+          "weight": 100.0,
+          "html": "<p>Production</p>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_5583",
-          "id": 5583,
-          "text": "Development",
-          "comments": "Right! When you're working on your application locally, running the code on your personal computer, it's running in the development environment. In a development environment, you should be able to easily use debugging tools and code analysis tools (like ESLint, which warns you when you're using React incorrectly). You should be able to quickly see the result of adding new code and how that affects your application.",
-          "comments_html": "Right! When you're working on your application locally, running the code on\nyour personal computer, it's running in the <strong>development</strong> environment. In a\ndevelopment environment, you should be able to easily use debugging tools and\ncode analysis tools (like ESLint, which warns you when you're using React\nincorrectly). You should be able to quickly see the result of adding new code\nand how that affects your application."
+          "id": 9813,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Right! When you're working on your application locally, running the code on your\npersonal computer, it's running in the <strong>development</strong> environment. In a\ndevelopment environment, you should be able to easily use debugging tools and\ncode analysis tools (like ESLint, which warns you when you're using React\nincorrectly). You should be able to quickly see the result of adding new code\nand how that affects your application.</p>",
+          "weight": 100.0,
+          "html": "<p>Development</p>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_3733",
-          "id": 3733,
-          "text": "Testing",
-          "comments": "Correct! When your test runner (like Jest or Pytest) is running, it runs in a testing environment. In this environment, your code should run as quickly as possible so that you can get rapid feedback on your application by running your test suite. It should also be as close as possible to your production environment (though this comes with tradeoffs related to how quickly your tests can run).",
-          "comments_html": "Correct! When your test runner (like Jest or Pytest) is running, it runs in a\n<strong>testing</strong> environment. In this environment, your code should run as quickly\nas possible so that you can get rapid feedback on your application by running\nyour test suite. It should also be as close as possible to your production\nenvironment (though this comes with tradeoffs related to how quickly your\ntests can run)."
+          "id": 7229,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! When your test runner (like Jest or Pytest) is running, it runs in\na <strong>testing</strong> environment. In this environment, your code should run as quickly\nas possible so that you can get rapid feedback on your application by running\nyour test suite. It should also be as close as possible to your production\nenvironment (though this comes with tradeoffs related to how quickly your tests\ncan run).</p>",
+          "weight": 100.0,
+          "html": "<p>Testing</p>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_8219",
-          "id": 8219,
-          "text": "Execution"
+          "id": 7815,
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>Execution</p>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6020",
-          "id": 6020,
-          "text": "Computation"
+          "id": 5761,
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>Computation</p>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_2748",
-          "id": 2748,
-          "text": "I don't know.",
-          "html": "I don't know."
+          "id": 113,
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -154,48 +159,49 @@
       "quiz_id": 53512,
       "quiz_group_id": null,
       "assessment_question_id": 631545,
-      "position": 2,
+      "position": null,
       "question_name": "Environments",
       "question_type": "multiple_answers_question",
-      "question_text": "When developing a Flask application, which of the following should be <strong>the\nsame</strong> in your development and production environments?",
+      "question_text": "<p>When developing a Flask application, which of the following should be <strong>the\nsame</strong> in your development and production environments?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Intro to Deployment",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7560/pages/intro-to-deployment\">Intro to Deployment</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_1089",
-          "id": 1089,
-          "text": "Python version",
-          "comments": "Correct! You should use the exact same version of Python in development and in production. Since new Python versions have new features, as well as fixing security issues in older versions, it's critical to use the same version in both environments.",
-          "comments_html": "Correct! You should use the exact same version of Python in development and in\nproduction. Since new Python versions have new features, as well as fixing\nsecurity issues in older versions, it's critical to use the same version in\nboth environments."
+          "id": 4277,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! You should use the exact same version of Python in development and in\nproduction. Since new Python versions have new features, as well as fixing\nsecurity issues in older versions, it's critical to use the same version in both\nenvironments.</p>",
+          "weight": 100.0,
+          "html": "<p>Python version</p>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_6260",
-          "id": 6260,
-          "text": "Database software",
-          "comments": "Right! It's generally a best practice to use the same database software locally as you use in production, since there are a few key differences between SQL database software (like SQLite and PostgreSQL).",
-          "comments_html": "Right! It's generally a best practice to use the same database software\nlocally as you use in production, since there are a few key differences\nbetween SQL database software (like SQLite and PostgreSQL)."
+          "id": 5112,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Right! It's generally a best practice to use the same database software locally\nas you use in production, since there are a few key differences between SQL\ndatabase software (like SQLite and PostgreSQL).</p>",
+          "weight": 100.0,
+          "html": "<p>Database software</p>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_8998",
-          "id": 8998,
-          "text": "Operating system",
-          "comments": "It's actually common to deploy your Flask application to a system that runs a different OS than you may be using locally. For example, OSX developers can still deploy Flask applications to platforms like Heroku that run Linux without issues in most circumstances.",
-          "comments_html": "It's actually common to deploy your Flask application to a system that runs a\ndifferent OS than you may be using locally. For example, OSX developers can\nstill deploy Flask applications to platforms like Heroku that run Linux\nwithout issues in most circumstances."
+          "id": 3381,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>It's actually common to deploy your Flask application to a system that runs a\ndifferent OS than you may be using locally. For example, OSX developers can\nstill deploy Flask applications to platforms like Heroku that run Linux without\nissues in most circumstances.</p>",
+          "weight": 0.0,
+          "html": "<p>Operating system</p>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_2553",
-          "id": 2553,
-          "text": "I don't know.",
-          "html": "I don't know."
+          "id": 4199,
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -210,33 +216,31 @@
       "quiz_id": 53512,
       "quiz_group_id": null,
       "assessment_question_id": 631606,
-      "position": 3,
+      "position": null,
       "question_name": "Static vs Dynamic Sites",
       "question_type": "true_false_question",
-      "question_text": "A <strong>static site</strong> is a site that stores its content in pre-built HTML,\nJavaScript and CSS files.",
+      "question_text": "<p>A <strong>static site</strong> is a site that stores its content in pre-built HTML,\nJavaScript and CSS files.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Intro to Deployment",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7560/pages/intro-to-deployment\">Intro to Deployment</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_5067",
-          "id": 5067,
+          "comments": "",
+          "comments_html": "<p>Right! <strong>Dynamic sites</strong> can generate different content based on what resources\nis being requested, whereas <strong>static sites</strong> don't generate custom content and\ninstead serve up pre-built files.</p>",
           "text": "True",
-          "comments": "Right! Dynamic sites can generate different content based on what resources is being requested, whereas static sites don't generate custom content and instead serve up pre-built files.",
-          "comments_html": "Right! <strong>Dynamic sites</strong> can generate different content based on what\nresources is being requested, whereas <strong>static sites</strong> don't generate custom\ncontent and instead serve up pre-built files."
+          "weight": 100,
+          "id": 5067
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_3657",
-          "id": 3657,
+          "comments": "",
+          "comments_html": "<p><strong>Dynamic sites</strong> can generate different content based on what resource is being requested, whereas <strong>static sites</strong> don't generate custom content and instead serve up pre-built files.</p>",
           "text": "False",
-          "comments": "Dynamic sites can generate different content based on what resource is being requested, whereas static sites don't generate custom content and instead serve up pre-built files.",
-          "comments_html": "<strong>Dynamic sites</strong> can generate different content based on what resource is\nbeing requested, whereas <strong>static sites</strong> don't generate custom content and\ninstead serve up pre-built files."
+          "weight": 0,
+          "id": 3657
         }
       ],
       "variables": null,
@@ -251,33 +255,31 @@
       "quiz_id": 53512,
       "quiz_group_id": null,
       "assessment_question_id": 631546,
-      "position": 4,
+      "position": null,
       "question_name": "Environments",
       "question_type": "true_false_question",
-      "question_text": "When you push your application's code to GitHub then deploy it using Render,\nyour database and all its included data is pushed up along with your Flask code.",
+      "question_text": "<p>When you push your application's code to GitHub then deploy it using Render,\nyour database and all its included data is pushed up along with your Flask code.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Deploying a Flask API to Render",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7560/pages/deploying-a-flask-api-to-render\">Deploying a Flask API to Render</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_5135",
-          "id": 5135,
+          "comments": "",
+          "comments_html": "<p>Your database files themselves aren't part of your Flask application and are not\ntracked by Git. In order to set up your database on the server, you need to run\nthe commands to migrate and seed the database on Render.</p>",
           "text": "True",
-          "comments": "Your database files themselves aren't part of your Flask application and are not tracked by Git. In order to set up your database on the server, you need to run the commands to migrate and seed the database on Render.",
-          "comments_html": "Your database files themselves aren't part of your Flask application and are\nnot tracked by Git. In order to set up your database on the server, you need\nto run the commands to migrate and seed the database on Render."
+          "weight": 0,
+          "id": 5135
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_4708",
-          "id": 4708,
+          "comments": "",
+          "comments_html": "<p>Correct! Your database files themselves aren't part of your Flask application\nand are not tracked by Git. In order to set up your database on the server, you\nneed to run the commands to migrate and seed the database on Render.</p>",
           "text": "False",
-          "comments": "Correct! Your database files themselves aren't part of your Flask application and are not tracked by Git. In order to set up your database on the server, you need to run the commands to migrate and seed the database on Render.",
-          "comments_html": "Correct! Your database files themselves aren't part of your Flask application\nand are not tracked by Git. In order to set up your database on the server,\nyou need to run the commands to migrate and seed the database on Render."
+          "weight": 100,
+          "id": 4708
         }
       ],
       "variables": null,
@@ -292,33 +294,31 @@
       "quiz_id": 53512,
       "quiz_group_id": null,
       "assessment_question_id": 631607,
-      "position": 5,
+      "position": null,
       "question_name": "Static vs Dynamic Sites",
       "question_type": "true_false_question",
-      "question_text": "Front end sites created with Create React App are an example of <strong>static sites</strong>.",
+      "question_text": "<p>Front end sites created with Create React App are an example of <strong>static\nsites</strong>.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Intro to DeploymentDeploying a Flask API to Render",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7560/pages/intro-to-deployment\">Intro to Deployment</a></li><li><a href=\"/courses/7560/pages/deploying-a-flask-api-to-render\">Deploying a Flask API to Render</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_9017",
-          "id": 9017,
+          "comments": "",
+          "comments_html": "<p>Right! Remember, the difference between <strong>static sites</strong> vs <strong>dynamic sites</strong> is\nwhether or not the content is built dynamically for every request to the server.\nSince applications created using Create React App are ultimately just pre-built\nHTML, CSS and JavaScript files, they fit the definition of a <strong>static site</strong>\n(even though they can have a very dynamic user experience).</p>",
           "text": "True",
-          "comments": "Right! Remember, the difference between static sites vs dynamic sites is whether or not the content is built dynamically for every request to the server. Since applications created using Create React App are ultimately just pre-built HTML, CSS and JavaScript files, they fit the definition of a static site (even though they can have a very dynamic user experience).",
-          "comments_html": "Right! Remember, the difference between <strong>static sites</strong> vs <strong>dynamic sites</strong>\nis whether or not the content is built dynamically for every request to the\nserver. Since applications created using Create React App are ultimately just\npre-built HTML, CSS and JavaScript files, they fit the definition of a\n<strong>static site</strong> (even though they can have a very dynamic user experience)."
+          "weight": 100,
+          "id": 9017
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_8305",
-          "id": 8305,
+          "comments": "",
+          "comments_html": "<p>Remember, the difference between <strong>static sites</strong> vs <strong>dynamic sites</strong> is whether\nor not the content is built dynamically for every request to the server. Since\napplications created using Create React App are ultimately just pre-built HTML,\nCSS and JavaScript files, they fit the definition of a <strong>static site</strong> (even\nthough they can have a very dynamic user experience).</p>",
           "text": "False",
-          "comments": "Remember, the difference between static sites vs dynamic sites is whether or not the content is built dynamically for every request to the server. Since applications created using Create React App are ultimately just pre-built HTML, CSS and JavaScript files, they fit the definition of a static site (even though they can have a very dynamic user experience).",
-          "comments_html": "Remember, the difference between <strong>static sites</strong> vs <strong>dynamic sites</strong>\nis whether or not the content is built dynamically for every request to the\nserver. Since applications created using Create React App are ultimately just\npre-built HTML, CSS and JavaScript files, they fit the definition of a\n<strong>static site</strong> (even though they can have a very dynamic user experience)."
+          "weight": 0,
+          "id": 8305
         }
       ],
       "variables": null,
